@@ -1,5 +1,7 @@
 # ubuntu-onecache
 Ubuntu Binary and Docker of OneCache 
+Included also source code tested on Ubuntu 14.04 (Dependencies: libjemalloc-dev libevent-dev libevent-pthreads)
+
 
 OneCache is a Redis Transparent Sharding/Cluster Proxy written in C with a very high IOPS
 
