@@ -20,7 +20,8 @@ OneCache is a Redis Transparent Sharding/Cluster Proxy written in C with a very 
 8, Virtual IP based HA feature protect you from proxy host failure.
 
 # server.xml Example
-<onecache port="8221" thread_num="15" hash_value_max="80" daemonize="0" guard="0" log_file="" password="" pid_file="" hash=" fnv1a_64" twemproxy_mode="0" debug="0">
+
+    <onecache port="8221" thread_num="15" hash_value_max="80" daemonize="0" guard="0" log_file="" password="" pid_file="" hash=" fnv1a_64" twemproxy_mode="0" debug="0">
     <!--port Listening Port-->
     <!--thread_num Numbers of Threads-->
     <!--hash_value_max Sharding Hash Max Value (Max:1024)-->
@@ -72,4 +73,4 @@ OneCache is a Redis Transparent Sharding/Cluster Proxy written in C with a very 
         <key key_name="key1" group_name="group1"></key>
         <key key_name="key2" group_name="group2"></key>
     </key_mapping>
-</onecache>
+    </onecache>
