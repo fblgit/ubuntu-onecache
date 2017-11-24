@@ -74,3 +74,6 @@ OneCache is a Redis Transparent Sharding/Cluster Proxy written in C with a very 
         <key key_name="key2" group_name="group2"></key>
     </key_mapping>
     </onecache>
+    
+# Official Repo:
+    https://github.com/onexsoft/onecache
